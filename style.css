@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(7, 7, 99);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.conteudo h2 {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    background-color: white;
+    position: fixed;
+    height: 80px;
+    top: 0;
+    width: 100vw;
+    left: 0;
+    z-index: 2;
+}
+
+.corpo {
+    display: block;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    max-width: 60vw;
+    background-color: white;
+    min-height: calc(100vh - 110px);
+}
+
+.conteudo {
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    margin: 20px;
+    width: calc(60vw - 41px);
+}
+
+.curso_img {
+    height: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.curso_link {
+    display: block;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+}
+
+.rodape {
+    display: flex;
+    margin: 20px;
+}
+
+.anterior {
+    flex-grow: 1;
+}
+
+.proxima {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.tabela {
+    position: relative;
+    width: 50vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+}
+
+td {
+    background-color: white;
+}
+
+.row1 td{
+    background-color: rgb(173, 173, 173);
+}
+
+.row2 td{
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+
+.div_da_tabela {
+    display: block;
+    margin: 0;
+    position: relative;
+    margin-top: 20vh;
+    margin-bottom: 30vh;
+}
+
+#lista_de_cores {
+    text-align: start;
+    direction: ltr;
+}
+
+#lista_de_pais{
+    text-align: start;
+    direction: rtl;
+}
+
+#lista_de_irmaos{
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    z-index: 1;
+    position:absolute;
+    top: 170px;
+    width: 100%;
+}
+
+#logo img{
+    display: block;
+    max-width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+#email {
+    text-align: center;
+}
